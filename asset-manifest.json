@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/darijaconverter/static/css/main.89ff48f3.css",
+    "main.js": "/darijaconverter/static/js/main.a6dbf485.js",
+    "index.html": "/darijaconverter/index.html",
+    "main.89ff48f3.css.map": "/darijaconverter/static/css/main.89ff48f3.css.map",
+    "main.a6dbf485.js.map": "/darijaconverter/static/js/main.a6dbf485.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.89ff48f3.css",
+    "static/js/main.a6dbf485.js"
+  ]
+}
