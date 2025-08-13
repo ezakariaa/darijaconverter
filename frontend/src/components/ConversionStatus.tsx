@@ -132,7 +132,7 @@ const ConversionStatus: React.FC<ConversionStatusProps> = ({
               </button>
             )}
             
-            {conversionState.status !== 'idle' && (
+            {(conversionState.status === 'converting' || conversionState.status === 'completed' || conversionState.status === 'error') && (
               <button
                 onClick={onReset}
                 className="btn-secondary flex items-center"
