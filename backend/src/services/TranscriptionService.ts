@@ -6,6 +6,11 @@ export class TranscriptionService {
   private openai: OpenAI;
 
   constructor() {
+    // S'assurer que dotenv est chargé
+    if (!process.env.OPENAI_API_KEY) {
+      throw new Error('OPENAI_API_KEY environment variable is not set');
+    }
+    
     this.openai = new OpenAI({
       apiKey: process.env.OPENAI_API_KEY,
     });
